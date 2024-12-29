@@ -10,6 +10,7 @@ import image3 from "../app/assets/IMG_5010.jpeg";
 import image4 from "../app/assets/IMG_5011.jpeg";
 import image5 from "../app/assets/IMG_0604.jpeg";
 import image6 from "../app/assets/wedding.jpeg";
+import image7 from "../app/assets/midhun.jpeg";
 
 export default function Home() {
   return (
@@ -45,9 +46,10 @@ export default function Home() {
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
             <div className="relative h-[400px]">
               <Image
-                src="https://images.unsplash.com/photo-1556103255-4443dbae8e5a"
+                src={image7}
                 alt="Photographer"
-                fill
+                width={500}  // Set width for the image
+                height={400}
                 className="rounded-lg object-cover"
               />
             </div>
