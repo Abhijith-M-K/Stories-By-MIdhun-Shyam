@@ -10,7 +10,8 @@ import image3 from "../app/assets/IMG_5010.jpeg";
 import image4 from "../app/assets/IMG_5011.jpeg";
 import image5 from "../app/assets/IMG_0604.jpeg";
 import image6 from "../app/assets/wedding.jpeg";
-import image7 from "../app/assets/midhun.jpeg";
+import image7 from "../app/assets/pic.jpg";
+import image8 from "../app/assets/camera2.jpg";
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-screen">
         <Image
-          src="https://images.unsplash.com/photo-1452587925148-ce544e77e70d"
+          src={image8}
           alt="Hero background"
           fill
           className="object-cover"
@@ -48,8 +49,7 @@ export default function Home() {
               <Image
                 src={image7}
                 alt="Photographer"
-                width={500}  // Set width for the image
-                height={400}
+                fill
                 className="rounded-lg object-cover"
               />
             </div>
